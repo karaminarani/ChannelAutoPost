@@ -40,7 +40,7 @@ except Exception as exc:
 @datgbot.on(events.NewMessage(pattern="/start"))
 async def _(event):
     await event.reply(
-        f"Hi `{event.sender.first_name}`!\n\nI Saya adalah bot saluran posting otomatis!! Membaca/help untuk mengetahui lebih lanjut!\n\nSaya hanya dapat digunakan di dua saluran (satu user) at a time. Kindly deploy your own bot.\n\n[More bots](https://t.me/suheroku)..",
+        f"Hi `{event.sender.first_name}`!\n\nI Saya adalah bot saluran posting otomatis!! Membaca/help untuk mengetahui lebih lanjut!\n\nSaya hanya dapat digunakan di dua saluran (satu user) pada suatu waktu.  Silakan gunakan bot Anda sendiri.\n\n[hubungi](https://t.me/suheroku)..",
         buttons=[
             Button.url("Repo", url="https://github.com/karaminarani/ChannelAutoPost"),
             Button.url("Dev", url="https://suheroku.me"),
